@@ -9,12 +9,12 @@ import {
 
 function SurfBoards() {
   return (
-    <section className="w-5/6 mt-10 mx-auto font-sans border-2 border-brand-red">
+    <section className="w-[94%] my-10 mx-auto font-sans border-2 border-brand-red">
       <div className="bg-brand-yellow">
         <Carousel className="w-full">
           <CarouselContent>
             <CarouselItem>
-              <h3 className="text-2xl font-light p-4 tracking-wide bg-brand-red text-white">
+              <h3 className="text-2xl font-light p-4 py-3 tracking-wide bg-brand-red text-white">
                 SAMURAI
               </h3>
               <div className="w-full pt-3">

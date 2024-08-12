@@ -10,13 +10,24 @@ function Header() {
         width={1152}
         height={172}
       />
-      <button
-        className="absolute -bottom-4 right-20 border border-white font-sans
-        p-2 px-4 hover:-bottom-[1.1rem] hover:right-[4.9rem] hover:bg-black hover:text-white
-      z-10 flex items-center justify-center bg-brand-red text-white"
-      >
-        STORE
-      </button>
+      <Link href="/">
+        <button
+          className="absolute -bottom-4 right-[11.5rem] border border-white font-sans
+        p-1 px-3 hover:-bottom-[1.1rem] hover:right-[11.4rem] hover:bg-black hover:text-white
+      z-10 flex items-center justify-center bg-brand-red text-white transition-all duration-300 ease-in-out"
+        >
+          HOME
+        </button>
+      </Link>
+      <Link href="/store">
+        <button
+          className="absolute -bottom-4 right-20 border border-white font-sans
+        p-1 px-3 hover:-bottom-[1.1rem] hover:right-[4.9rem] hover:bg-black hover:text-white
+      z-10 flex items-center justify-center bg-brand-red text-white transition-all duration-300 ease-in-out"
+        >
+          STORE
+        </button>
+      </Link>
     </div>
   );
 }
