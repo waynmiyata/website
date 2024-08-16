@@ -17,7 +17,7 @@ function Stickers() {
         <p className="pt-6 p-4 text-lg font-light leading-snug">
           Stick them on anything. Wayne Miyata Surfoard stickers.
           <br />
-          <span className="text-sm">(2" in diameter)</span>
+          <span className="text-sm">(2&#34; in diameter)</span>
         </p>
         <p className="p-4 pt-0 text-lg font-light leading-snug">$2 /each</p>
         <div className="p-4 pt-0">
