@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/custom/Header";
+import Footer from "@/components/custom/Footer";
 import { cn } from "@/lib/utils";
 
 const fontSans = FontSans({
@@ -30,6 +31,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>
