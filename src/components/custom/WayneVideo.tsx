@@ -7,8 +7,8 @@ function WayneVideo() {
         </h3>
         <p className="pt-6 p-4 text-lg font-light leading-snug">
           The pro surfing pioneer Wayne Miyata was one of the stars in the cult
-          60's surfing film &ldquo;Endless Summer&rdquo;. Wayne Miyata was also
-          a master surfboard designer.
+          60&apos;s surfing film &ldquo;Endless Summer&rdquo;. Wayne Miyata was
+          also a master surfboard designer.
         </p>
         <p className="p-4 pt-0 text-xl leading-relaxed">
           <iframe
